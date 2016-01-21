@@ -1,5 +1,7 @@
-f = open("seattle_dates.csv")
-f = open("sanfrancisco_dates.csv")
+import sys
+
+file_name = sys.argv[1]
+f = open(file_name)
 
 dates_count_map = {}
 

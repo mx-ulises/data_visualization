@@ -1,7 +1,8 @@
+import sys
 from datetime import datetime, date, time
 
-f = open("seattle_dates.csv")
-#f = open("sanfrancisco_dates.csv")
+file_name = sys.argv[1]
+f = open(file_name)
 
 dates_count_map = {}
 
